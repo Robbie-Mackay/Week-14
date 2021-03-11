@@ -83,7 +83,7 @@ def integer_roots(poly):
     """To find the roots of the polynomial"""
     last_value = poly[-1]
     if len(poly) <= 1:
-        possible_root = 0 
+        possible_root = None 
         return possible_root
     modulus_range = range(-last_value,last_value + 1)
     for possible_root in modulus_range:
